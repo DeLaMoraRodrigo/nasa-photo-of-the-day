@@ -6,9 +6,9 @@ const CardData = () => {
     const [photo, setPhoto] = useState([]);
 
     useEffect(() => {
-        axios.get("https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY")
+        axios.get("https://api.nasa.gov/planetary/apod?api_key=qYBm7zvyHXnzIMxeTLllgBKx4bQ7XzVPU0ZxoaEU")
             .then( response => {
-                console.log(response);
+                // console.log(response);
                 setPhoto(response.data)
             })
             .catch( error => {

@@ -1,6 +1,6 @@
 import React from "react";
 
-const cardMaker = props => {
+const CardMaker = props => {
     // console.log(props);
     return (
         <div className="cardDiv">
@@ -10,4 +10,4 @@ const cardMaker = props => {
     )
 }
 
-export default cardMaker;
+export default CardMaker;
